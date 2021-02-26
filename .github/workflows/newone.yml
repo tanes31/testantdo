@@ -36,8 +36,8 @@ jobs:
           echo test, and deploy your project.
       
       #Apply code review sujestions 
-      - name: action-git-diff-suggestions
-        uses: getsentry/action-git-diff-suggestions@v1
+      #- name: action-git-diff-suggestions
+      #  uses: getsentry/action-git-diff-suggestions@v1
         
       - name: Contributorcoin
         uses: contributorcoin/contribute-action@v0.1.0-alpha
