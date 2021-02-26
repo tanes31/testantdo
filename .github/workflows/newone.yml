@@ -39,9 +39,8 @@ jobs:
       - name: action-git-diff-suggestions
         uses: getsentry/action-git-diff-suggestions@v1
         
-        
-      - name: Lightstep Pre-Deploy Check
-        uses: lightstep/lightstep-action-predeploy@v0.2.6
+      - name: Slack Workflow Notifier
+        uses: Jiro-Digital/slack-workflow-action@v1.0.6
 
 
 
