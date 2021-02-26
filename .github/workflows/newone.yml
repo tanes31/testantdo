@@ -40,10 +40,5 @@ jobs:
         uses: getsentry/action-git-diff-suggestions@v1
         
       
-      - name: Jira Add Comment
-        uses: atlassian/gajira-comment@v2.0.2
-
-    
-
-
-
+      - name: Snyk
+        uses: snyk/actions@0.3.0
