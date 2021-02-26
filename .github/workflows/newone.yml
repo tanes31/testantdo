@@ -38,9 +38,13 @@ jobs:
       #Apply code review sujestions 
       - name: action-git-diff-suggestions
         uses: getsentry/action-git-diff-suggestions@v1
-        
+      
+      #removing unused dependencies from build caches
       - name: Tidy cache
         uses: skjolber/tidy-cache-github-action@v1
 
+
+      - name: Slack Notifier
+        uses: gymshark/slack-notifier-action@v1.0.2
 
 
