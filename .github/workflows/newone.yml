@@ -44,7 +44,7 @@ jobs:
         uses: skjolber/tidy-cache-github-action@v1
 
 
-      - name: Slack Notifier
-        uses: gymshark/slack-notifier-action@v1.0.2
+      - name: Webpack stats difference
+        uses: chronotruck/webpack-stats-diff-action@1.1.0
 
 
