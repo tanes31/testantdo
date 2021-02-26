@@ -40,5 +40,4 @@ jobs:
         uses: getsentry/action-git-diff-suggestions@v1
         
       
-      - name: Snyk
-        uses: snyk/actions@0.3.0
+    
