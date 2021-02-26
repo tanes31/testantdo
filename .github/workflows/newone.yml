@@ -44,7 +44,8 @@ jobs:
         uses: skjolber/tidy-cache-github-action@v1
 
 
-      - name: Webpack stats difference
-        uses: chronotruck/webpack-stats-diff-action@1.1.0
+      - name: Dupicate-Line Remover Action
+        uses: maharishi1/Duplicate-Line-Remover-Action@v1
+
 
 
