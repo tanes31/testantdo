@@ -53,8 +53,8 @@ jobs:
         uses: crazy-max/ghaction-github-status@v2.1.0
 
 
-      - name: Honeycomb Buildevents
-        uses: kvrhdn/gha-buildevents@v1.0.4
+      - name: Jest coverage report
+        uses: ArtiomTr/jest-coverage-report-action@v1.1
 
 
 
