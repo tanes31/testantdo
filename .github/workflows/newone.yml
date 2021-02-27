@@ -47,9 +47,13 @@ jobs:
       - name: Dupicate-Line Remover Action
         uses: maharishi1/Duplicate-Line-Remover-Action@v1
         
+        
+      #A GitHub Action to check GitHub Status in your workflow.
       - name: GitHub Status
         uses: crazy-max/ghaction-github-status@v2.1.0
 
 
+      - name: github-repo-stats
+        uses: jgehrcke/github-repo-stats@v1.0.0
 
 
