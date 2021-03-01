@@ -18,12 +18,12 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ${{ matrix.os}}
-    strategy:
-      matrix:
+   # runs-on: ${{ matrix.os}}
+    #strategy:
+      #matrix:
         #node_version: [8,10,12]
-        os: [ubunto-latest, windows-latest, macOS-latest]
-  
+        #os: [ubunto-latest, windows-latest, macOS-latest]
+    runs-on: ubunto-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
