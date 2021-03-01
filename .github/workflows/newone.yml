@@ -22,7 +22,7 @@ jobs:
     strategy:
       matrix: 
         node_version: [8,10,12]
-        os: [ubunto-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
     #runs-on: ubunto-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
