@@ -20,7 +20,7 @@ jobs:
     # The type of runner that the job will run on
    # runs-on: ${{ matrix.os}}
     #strategy:
-      #matrix:
+      #matrix: 
         #node_version: [8,10,12]
         #os: [ubunto-latest, windows-latest, macOS-latest]
     runs-on: ubunto-latest
