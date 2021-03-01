@@ -58,8 +58,9 @@ jobs:
         uses: crazy-max/ghaction-github-status@v2.1.0
 
 
-      - name: Profile Readme Stats
-        uses: teoxoy/profile-readme-stats@v1
+      - name: Npm check updates
+        uses: Fzwael/ncu-action@v1.2.2
+
 
 
       
