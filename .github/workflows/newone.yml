@@ -65,7 +65,11 @@ jobs:
       - name: GLua Linter
         uses: TASSIA710/action-glua-lint@v1.1.2
 
+      #This Action can install Asciidoctor to a virtual machine of GitHub Actions.
       - name: Asciidoctor Setup
         uses: reitzig/actions-asciidoctor@v2.0.0
+
+      - name: Create an Tag
+        uses: simpleactions/create-tag@v1.0.0
 
 
