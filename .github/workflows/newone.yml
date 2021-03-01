@@ -23,7 +23,7 @@ jobs:
      # matrix: 
         #node_version: [8,10,12]
        # os: [ubuntu-latest, windows-latest, macOS-latest]
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
