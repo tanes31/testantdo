@@ -57,11 +57,13 @@ jobs:
       - name: GitHub Status
         uses: crazy-max/ghaction-github-status@v2.1.0
 
-
+      #Reformats YAML files: Removes trailing whitepace, Converts tabs to spaces
       - name: Reformat YAML Files
         uses: credfeto/action-yaml-format@v1.2
 
 
+      - name: GLua Linter
+        uses: TASSIA710/action-glua-lint@v1.1.2
 
 
       
