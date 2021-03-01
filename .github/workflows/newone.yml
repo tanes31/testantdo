@@ -65,6 +65,7 @@ jobs:
       - name: GLua Linter
         uses: TASSIA710/action-glua-lint@v1.1.2
 
-      - name: Deploy static app in branch to gh-pages
-        uses: Sauloxd/review-apps@v1.3.3
+      - name: Asciidoctor Setup
+        uses: reitzig/actions-asciidoctor@v2.0.0
+
 
